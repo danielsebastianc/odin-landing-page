@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <div>Header Logo</div>
-        <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <div>
-            <span></span>
-            <p></p>
-            <button>Sign Up</button>
+    <section class="sec-1">
+        <div class="header container">
+            <div class="logo main-color">Header Logo</div>
+            <ul class="header-link subtext-color">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
         </div>
-        <img alt="hero-img" src="">
-    </div>
+    
+        <div class="hero container">
+            <div>
+                <div class="hero-main-text main-color">This Website is Awesome</div>
+                <div class="hero-subtext subtext-color">
+                    This website has some subtext that goes here under the main title. 
+                    It's smaller font and the color is lower contrast
+                </div>
+                <button class="hero-button">Sign Up</button>
+            </div>
+            <img class="hero-img" alt="hero-img" src="">
+        </div>
+    </section>
 
     <div>
         <div>Some Random Information</div>
@@ -64,7 +69,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="footer">
         <div>Copyright © The Odin Project 2021</div>
     </div>
 </body>

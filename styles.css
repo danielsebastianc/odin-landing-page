@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 a {
@@ -11,4 +12,71 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.sec-1 {
+    background-color: #1F2937;
+    padding: 24px 0;
+}
+
+.main-color {
+    color: #f9faf8;
+}
+
+.subtext-color {
+    color: #e5e7eb;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero-subtext {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    display: flex;
+    gap: 24px;
+}
+
+.hero {
+    display: flex;
+    padding: 72px 0;
+}
+
+.hero-img {}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
