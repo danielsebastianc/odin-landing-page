@@ -16,17 +16,21 @@ ul {
 
 button {
     font-family: Roboto, sans-serif;
-    background-color: #3882f6;
-    color: white;
     padding: 8px 36px;
     border-radius: 8px;
     border: none;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
+}
+
+button.hero-button {
+    background-color: #3882f6;
+    color: white;
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -55,6 +59,7 @@ button {
 
 .hero-subtext {
     font-size: 18px;
+    margin: 8px 0;
 }
 
 .header {
@@ -69,10 +74,14 @@ button {
 
 .hero {
     display: flex;
-    padding: 72px 0;
+    padding: 86px 0;
+    gap: 56px;
 }
 
-.hero-img {}
+.hero-img {
+    width: 700px;
+    height: 250px;
+}
 
 .footer {
     background-color: #1F2937;
