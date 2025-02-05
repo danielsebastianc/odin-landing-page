@@ -33,6 +33,7 @@ button.action-button {
     background-color: #3882f6;
     border: 2px #f9faf8 solid;
     color: #f9faf8;
+    align-self: flex-end;
 }
 
 .container {
