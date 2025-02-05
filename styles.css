@@ -29,6 +29,12 @@ button.hero-button {
     color: white;
 }
 
+button.action-button {
+    background-color: #3882f6;
+    border: 2px #f9faf8 solid;
+    color: #f9faf8;
+}
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -91,12 +97,12 @@ button.hero-button {
 
 .info-title {
     font-weight: 900;
-    font-size: 26px;
+    font-size: 36px;
     color: #1f2937;
 }
 
 .info-container {
-    padding: 32px;
+    padding: 48px;
     display: flex;
     gap: 48px;
     justify-content: center;
@@ -147,6 +153,29 @@ button.hero-button {
     font-weight: bold;
     font-style: normal;
     margin-right: 56px;
+}
+
+.sec-3 {
+    padding: 86px;
+}
+
+.action-card {
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 56px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-card-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-card-text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .footer {
